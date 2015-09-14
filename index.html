@@ -8,20 +8,27 @@
     <title></title>
   </head>
   <body ng-app="app" >
+    <section layout="row" flex>
+      <md-sidenav md-is-locked-open="$mdMedia('gt-md')">
+        Hola
+      </md-sidenav>
+      <md-toolbar>
+        <div class="md-toolbar-tools" layout>
+          <md-button class="md-icon-button" hide-gt-md>
+            <md-icon>menu</md-icon>
+          </md-button>
+          <span class="md-title">Estrenos</span>
+          <span flex></span>
 
-    <md-toolbar>
-      <div class="md-toolbar-tools">
-        <md-button class="md-icon-button" md-show-gt-md>
-          <md-icon>menu</md-icon>
-        </md-button>
-        <span class="md-headline">Estrenos</span>
-        <span flex></span>
-        <md-button>Registrarse</md-button>
-        <md-button>iniciar</md-button>
-      </div>
-    </md-toolbar>
-    <md-content></md-content>
-    <md-sidenav></md-sidenav>
+          <md-button hide-sm>Registrarse</md-button>
+          <md-button hide-sm>iniciar</md-button>
+          <md-button hide-gt-sm>Reg.</md-button>
+          <md-button hide-gt-sm>in.</md-button>
+        </div>
+      </md-toolbar>
+
+
+    </section>
 
     <!-- Angular JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
