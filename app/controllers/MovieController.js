@@ -1,2 +1,2 @@
-app.controller("MovieController",function($scope){
+app.controller("MovieController",function($scope, movieService){
 });

@@ -1,4 +1,4 @@
-app.factory("ContactService", function($https){
+app.factory("ContactService", function($http){
 
   var service = {};
   return service;

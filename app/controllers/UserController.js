@@ -1,2 +1,2 @@
-app.controller("LoginController",function(#scope){
+app.controller("LoginController",function($scope, userService){
 });
