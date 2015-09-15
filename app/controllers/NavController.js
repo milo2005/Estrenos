@@ -1,7 +1,3 @@
-app.controller("NavController",function($scope,$mdSidenav){
-  $scope.openNav= function(){
-    $mdSidenav('nav').open();
-  }
+app.controller("NavController",function($scope){
   $scope.categories=['comedia', 'animacion', 'romance', 'accion', 'terror', 'scifi'];
-
 });
