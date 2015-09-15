@@ -1,4 +1,4 @@
-app.controller("NavController",function($scope){
+app.controller("NavController",function($scope,$mdSidenav){
   $scope.openNav= function(){
     $mdSidenav('nav').open();
   }
